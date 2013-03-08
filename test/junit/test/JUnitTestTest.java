@@ -87,19 +87,6 @@ public class JUnitTestTest {
         //fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of divide method, of class JUnitTest.
-     */
-    @Test
-    public void testDivide() {
-        System.out.println("divide");
-        int a = 2;
-        int b = 2;
-        JUnitTest instance = new JUnitTest();
-        int expResult = 1;
-        int result = instance.divide(a, b);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+
     }
-}
+
